@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<section class="container">
+	<h1>Murojaah Web App v0</h1>
+</section>
+
+<section class="container">
+	<div class="col-sm-4">
+		<h3>Recommended Surah:<br><strong>71 Nuh</strong></h3>
+	</div>
+	<div class="form-group col-sm-4">
+		<label for="surah-input">Input the Surah # you just read.</label>
+		<input type="number" class="form-control" id="input">
+		<button onclick="JavaScript:alert('Well done!')" type="submit">Finished Reading</button>
+	</div>
+</section>
+<section class="container">
+	<div class="col-sm-8">
+	<h2>Surahs you have read</h2>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>Last Read</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>71</td>
+				<td>Nuh</td>
+				<td>15 Mar 2019</td>
+			</tr>
+			<tr>
+				<td>72</td>
+				<td>Jinn</td>
+				<td>27 Mar 2019</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+</body>
+</html>
